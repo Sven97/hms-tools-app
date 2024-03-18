@@ -49,7 +49,7 @@ def calibrate():
         }
     else:
         response = {"status": "failure",
-                    "message": "Chessboard not found. "}
+                    "message": "Chessboard not found."}
 
     return jsonify(response)
 
