@@ -49,7 +49,7 @@ def calibrate():
         }
     else:
         response = {"status": "failure",
-                    "message": "Chessboard not found. Ensure the entire chessboard is visible in the frame."}
+                    "message": "Chessboard not found. "}
 
     return jsonify(response)
 
